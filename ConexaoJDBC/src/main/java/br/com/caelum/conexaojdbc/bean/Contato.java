@@ -25,11 +25,25 @@ public class Contato {
 	  /**
 	  * @param email the email to set
 	  */
-	   public void setEmail(String email){
+	  public void setEmail(String email){
 		   this.email = email;
+	  }
+	   
+	   /**
+		  * @param id the id to set
+		  */
+	  public void setId(Long id){
+		   this.id = id;
 	  }
 	  
 	  /**
+	   * @return the id
+	   */
+	  public Long getId() {
+		  return id;
+	  }
+
+	/**
 	  * @return the endereco
 	  */
 	  public String getEndereco() {
